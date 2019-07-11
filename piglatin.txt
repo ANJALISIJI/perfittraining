@@ -1,0 +1,15 @@
+
+
+pig = 'ay'
+original = raw_input('Enter a word:')
+if len(original) > 0 and original.isalpha():
+ word = original.lower()
+ first = word[0]
+ if first == ('a' or 'e' or 'i' or 'o' or 'u'):
+ 	new = word + pig
+ 	print new
+ else:
+ 	new = word[1:] + first + pig
+ 	print new
+else:
+ 	print 'empty'

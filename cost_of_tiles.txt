@@ -1,0 +1,9 @@
+def main():
+    tile = input ("enter t: ")
+    w = input ("enter w: ")
+    h = input ("enter h : ")
+    print 'Total cost: %.2f' % ( w * h * tile )
+if __name__ == '__main__':
+    main()
+
+ 
